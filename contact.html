@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | CognitionHive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Cognition<span>Hive</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('nav ul').classList.toggle('active')">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <p class="accent-text">Contact</p>
+        <h1>Request a CRI Readiness Assessment</h1>
+        <p style="max-width: 600px; margin-bottom: 3rem;">No commitment required. Response within one business day.</p>
+
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input type="email" id="email" name="email" placeholder="you@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" id="title" name="title" placeholder="Your role">
+            </div>
+            <div class="form-group">
+              <label for="organization">Organization</label>
+              <input type="text" id="organization" name="organization" placeholder="Company name">
+            </div>
+            <div class="form-group">
+              <label for="industry">Industry</label>
+              <select id="industry" name="industry" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #D1D5DB; border-radius: 4px; font-family: 'Inter', sans-serif; font-size: 1rem; color: #4A5568; background-color: #FFFFFF;">
+                <option value="">Select industry</option>
+                <option value="banking">Banking</option>
+                <option value="insurance">Insurance</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="life-sciences">Life Sciences / Pharma</option>
+                <option value="energy">Energy / Utilities</option>
+                <option value="other">Other regulated industry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Primary concern (optional)</label>
+              <textarea id="message" name="message" placeholder="Tell me about your AI governance challenges..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: fit-content;">Request Assessment</button>
+          </form>
+
+          <!-- Contact Info -->
+          <div class="card contact-info-card">
+            <h3>Get in Touch</h3>
+
+            <div class="contact-detail">
+              <span class="icon"><i class="fas fa-envelope"></i></span>
+              <div>
+                <p style="font-weight: 600; color: #1B2A4A; margin-bottom: 0.25rem;">Email</p>
+                <a href="mailto:wade@cognitionhive.com">wade@cognitionhive.com</a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+              <div>
+                <p style="font-weight: 600; color: #1B2A4A; margin-bottom: 0.25rem;">Location</p>
+                <p style="margin-bottom: 0;">San Diego, California</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+              <div>
+                <p style="font-weight: 600; color: #1B2A4A; margin-bottom: 0.25rem;">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/wadelovell">linkedin.com/in/wadelovell</a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="icon"><i class="fab fa-salesforce"></i></span>
+              <div>
+                <p style="font-weight: 600; color: #1B2A4A; margin-bottom: 0.25rem;">Salesforce Trailblazer</p>
+                <a href="https://www.salesforce.com/trailblazer/wlovell1">trailblazer/wlovell1</a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="icon"><i class="fas fa-globe"></i></span>
+              <div>
+                <p style="font-weight: 600; color: #1B2A4A; margin-bottom: 0.25rem;">Website</p>
+                <a href="https://cognitionhive.com">cognitionhive.com</a>
+              </div>
+            </div>
+
+            <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #E2E8F0;">
+              <h4>Regulatory Coverage</h4>
+              <div class="skills-list" style="margin-top: 0.75rem;">
+                <span class="skill-tag">OCC Bulletin 2011-12</span>
+                <span class="skill-tag">Federal Reserve SR 11-7</span>
+                <span class="skill-tag">FDA 21 CFR Part 11</span>
+                <span class="skill-tag">SOC 2</span>
+                <span class="skill-tag">HIPAA</span>
+                <span class="skill-tag">EU AI Act</span>
+                <span class="skill-tag">NIST AI RMF</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/wadelovell" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.salesforce.com/trailblazer/wlovell1" title="Salesforce Trailblazer" aria-label="Salesforce Trailblazer"><i class="fab fa-salesforce"></i></a>
+        <a href="https://cognitionhive.com" title="CognitionHive" aria-label="CognitionHive"><i class="fas fa-globe"></i></a>
+      </div>
+      <p>CognitionHive · Wade Lovell, Principal</p>
+      <p>&copy; 2026 CognitionHive. Wade Lovell. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | CognitionHive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Cognition<span>Hive</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('nav ul').classList.toggle('active')">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <p class="accent-text">The Portfolio</p>
+        <h1>Products built on the same CRI foundation</h1>
+        <p style="max-width: 700px; margin-bottom: 3rem;">
+          Each product in the CognitionHive portfolio applies the Composite Reliability Index
+          methodology from Wade Lovell's doctoral research on agent reliability in regulated environments.
+        </p>
+
+        <div class="projects-grid">
+
+          <!-- Prufs.ai -->
+          <div class="card project-card">
+            <div style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1B2A4A, #2A3F6A); border-radius: 8px; min-height: 200px; padding: 2rem;">
+              <div style="text-align: center; color: #FFFFFF;">
+                <i class="fas fa-fingerprint" style="font-size: 3rem; color: #2A9D8F;"></i>
+                <p style="margin-top: 1rem; font-family: 'Playfair Display', serif; font-size: 1.5rem;">Prufs.ai</p>
+                <p style="font-size: 0.85rem; color: #2A9D8F;">Trust Infrastructure</p>
+              </div>
+            </div>
+            <div>
+              <h3>Prufs.ai</h3>
+              <p><strong>Goal:</strong> Wrap every AI-generated code change in a SHA-256 signed audit trail that captures agent identity, reasoning context, and policy decisions, making agentic code as auditable as human code.</p>
+              <p><strong>Contribution:</strong> Designed and built the SDK, cloud backend, and agent signing architecture. 212 tests confirm production stability.</p>
+              <p><strong>Outcome:</strong> Live, production-ready cryptographic audit trail system. SDK published. Cloud backend operational. Examiner-ready artifacts formatted to OCC, FDA, SOC 2, and HIPAA evidence expectations.</p>
+              <div class="project-tags">
+                <span class="skill-tag">SHA-256 Signing</span>
+                <span class="skill-tag">Audit Trails</span>
+                <span class="skill-tag">SDK</span>
+                <span class="skill-tag">Compliance</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-tools" style="color: #2A9D8F;"></i> Python, Cryptography, Cloud Infrastructure, OPA</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-calendar" style="color: #2A9D8F;"></i> Live - 2025-Present</span>
+                <span><a href="https://prufs.ai"><i class="fas fa-external-link-alt"></i> prufs.ai</a></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- AgentPruf -->
+          <div class="card project-card">
+            <div style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1B2A4A, #2A3F6A); border-radius: 8px; min-height: 200px; padding: 2rem;">
+              <div style="text-align: center; color: #FFFFFF;">
+                <i class="fas fa-shield-alt" style="font-size: 3rem; color: #2A9D8F;"></i>
+                <p style="margin-top: 1rem; font-family: 'Playfair Display', serif; font-size: 1.5rem;">AgentPruf</p>
+                <p style="font-size: 0.85rem; color: #2A9D8F;">Trust Infrastructure</p>
+              </div>
+            </div>
+            <div>
+              <h3>AgentPruf</h3>
+              <p><strong>Goal:</strong> Operationalize the CRI framework as a managed Governance-as-a-Service for enterprise agent deployments.</p>
+              <p><strong>Contribution:</strong> Designed the five-agent governance pipeline: Identity Agent, Policy Agent, Audit Agent, Escalation Agent, and Compliance Agent. Each wraps agentic workflows with verification, enforcement, and Human at the Helm escalation.</p>
+              <p><strong>Outcome:</strong> Three-tier pricing model (Starter $297/mo, Professional $697/mo, Enterprise $1,497/mo) with scalable agent governance from 5 to unlimited agents.</p>
+              <div class="project-tags">
+                <span class="skill-tag">Governance-as-a-Service</span>
+                <span class="skill-tag">Multi-Agent Systems</span>
+                <span class="skill-tag">OPA Policies</span>
+                <span class="skill-tag">Human-in-the-Loop</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-tools" style="color: #2A9D8F;"></i> Python, Prufs SDK, OPA, Cloud Infrastructure</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-calendar" style="color: #2A9D8F;"></i> Live - 2025-Present</span>
+                <span><a href="https://agentpruf.ai"><i class="fas fa-external-link-alt"></i> agentpruf.ai</a></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BrandSprint -->
+          <div class="card project-card">
+            <div style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1B2A4A, #2A3F6A); border-radius: 8px; min-height: 200px; padding: 2rem;">
+              <div style="text-align: center; color: #FFFFFF;">
+                <i class="fas fa-rocket" style="font-size: 3rem; color: #2A9D8F;"></i>
+                <p style="margin-top: 1rem; font-family: 'Playfair Display', serif; font-size: 1.5rem;">BrandSprint</p>
+                <p style="font-size: 0.85rem; color: #2A9D8F;">Agentic Services</p>
+              </div>
+            </div>
+            <div>
+              <h3>BrandSprint</h3>
+              <p><strong>Goal:</strong> Deliver a complete brand launch in 48 hours using a seven-agent pipeline: naming, visual identity, messaging, competitive positioning, and launch-ready assets.</p>
+              <p><strong>Contribution:</strong> Designed and built the seven-agent pipeline (Discovery, Naming, Identity, Messaging, Competitive, Asset, Audit). Each agent output is verified with a Prufs.ai signed audit trail.</p>
+              <p><strong>Outcome:</strong> Work that previously took agencies six weeks at six figures, delivered in two days. Three tiers from $497 to $2,497.</p>
+              <div class="project-tags">
+                <span class="skill-tag">Agentic AI</span>
+                <span class="skill-tag">Brand Strategy</span>
+                <span class="skill-tag">Multi-Agent Pipeline</span>
+                <span class="skill-tag">CRI Governance</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-tools" style="color: #2A9D8F;"></i> Python, LLM Orchestration, Prufs SDK</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-calendar" style="color: #2A9D8F;"></i> Live - 2025-Present</span>
+                <span><a href="https://brandsprint.ai"><i class="fas fa-external-link-alt"></i> brandsprint.ai</a></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nexum Fiducia -->
+          <div class="card project-card">
+            <div style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1B2A4A, #2A3F6A); border-radius: 8px; min-height: 200px; padding: 2rem;">
+              <div style="text-align: center; color: #FFFFFF;">
+                <i class="fas fa-chart-pie" style="font-size: 3rem; color: #2A9D8F;"></i>
+                <p style="margin-top: 1rem; font-family: 'Playfair Display', serif; font-size: 1.5rem;">Nexum Fiducia</p>
+                <p style="font-size: 0.85rem; color: #2A9D8F;">Wealth Intelligence</p>
+              </div>
+            </div>
+            <div>
+              <h3>Nexum Fiducia</h3>
+              <p><strong>Goal:</strong> Integrate three AI paradigms (ML portfolio optimization, generative AI client communication, and agentic RAG research) into a single fiduciary-grade workflow for private banks, family offices, RIAs, and ERISA-governed accounts.</p>
+              <p><strong>Contribution:</strong> Designed the ML optimizer with SHAP explainability, GenAI IPS generation, and agentic RAG research synthesis. Commercialized from the IWMPAS capstone, defended with an exceptional review in April 2026.</p>
+              <p><strong>Outcome:</strong> Every portfolio recommendation includes a SHAP-based explanation chain that satisfies fiduciary documentation requirements. Nexum Fiducia pending USPTO registration, Classes 36 and 42.</p>
+              <div class="project-tags">
+                <span class="skill-tag">ML Optimization</span>
+                <span class="skill-tag">SHAP Explainability</span>
+                <span class="skill-tag">Agentic RAG</span>
+                <span class="skill-tag">Fiduciary Compliance</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-tools" style="color: #2A9D8F;"></i> Python, PyTorch, SHAP, RAG, Cloud Infrastructure</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-calendar" style="color: #2A9D8F;"></i> 2026-Present</span>
+                <span><a href="https://nexumfiducia.com"><i class="fas fa-external-link-alt"></i> nexumfiducia.com</a></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Selvara -->
+          <div class="card project-card">
+            <div style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1B2A4A, #2A3F6A); border-radius: 8px; min-height: 200px; padding: 2rem;">
+              <div style="text-align: center; color: #FFFFFF;">
+                <i class="fas fa-graduation-cap" style="font-size: 3rem; color: #2A9D8F;"></i>
+                <p style="margin-top: 1rem; font-family: 'Playfair Display', serif; font-size: 1.5rem;">Selvara</p>
+                <p style="font-size: 0.85rem; color: #2A9D8F;">Education</p>
+              </div>
+            </div>
+            <div>
+              <h3>Selvara</h3>
+              <p><strong>Goal:</strong> Deliver research-grade AI education from Pre-K to the C-Suite through one AI Navigator that adapts to the learner across eleven tiers.</p>
+              <p><strong>Contribution:</strong> Designed the age-adaptive Navigator architecture, anti-gaming mechanisms (voice verification, gaze detection, session caps), portable memory system, and CRI-scored outputs. Built on published Ethical AI research.</p>
+              <p><strong>Outcome:</strong> Eleven tiers from Selvara Start (Pre-K) through Selvara Executive (C-Suite AI literacy). Enterprise licensing available for school districts and leadership teams. Selvara pending USPTO registration, Classes 9 and 41.</p>
+              <div class="project-tags">
+                <span class="skill-tag">EdTech</span>
+                <span class="skill-tag">Adaptive AI</span>
+                <span class="skill-tag">Anti-Gaming</span>
+                <span class="skill-tag">Ethical AI</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-tools" style="color: #2A9D8F;"></i> AI/ML, NLP, Voice Recognition, CRI Framework</span>
+              </div>
+              <div class="project-meta">
+                <span><i class="fas fa-calendar" style="color: #2A9D8F;"></i> 2025-Present</span>
+                <span><a href="https://selvara.ai"><i class="fas fa-external-link-alt"></i> selvara.ai</a></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/wadelovell" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.salesforce.com/trailblazer/wlovell1" title="Salesforce Trailblazer" aria-label="Salesforce Trailblazer"><i class="fab fa-salesforce"></i></a>
+        <a href="https://cognitionhive.com" title="CognitionHive" aria-label="CognitionHive"><i class="fas fa-globe"></i></a>
+      </div>
+      <p>CognitionHive · Wade Lovell, Principal</p>
+      <p>&copy; 2026 CognitionHive. Wade Lovell. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
