@@ -2,7 +2,7 @@
 
 **Prepared:** September 5, 2026, 22:20 UTC
 **Branch:** `claude/frontier-model-training-research-lw2yob`
-**Pull request:** https://github.com/WadeLovell/wadelovell-portfolio/pull/1 (open, mergeable, no reviews or comments as of this handoff)
+**Pull request:** https://github.com/WadeLovell/wadelovell-portfolio/pull/1 (merged September 5, 2026)
 **Head commit at handoff:** `111e4d3` plus this handoff commit
 
 ## 1. State of the work
@@ -17,7 +17,7 @@ The research program is complete and pushed. Five deliverables sit in `research/
 | `search-log.md` | 6,900 | Every query, channel, count, and coverage limit |
 | `README.md` | 190 | Index and scale of the run |
 
-The `working/` directory holds the evidence base that produced the report and lived only in the session scratchpad until this commit: the four sweep registers (`sweeps/path1-*` through `path4-*`, markdown and JSON), the frontier recipe register (`sweeps/frontier-recipe-register.*`, 67 models, 32-method matrix), the shared sweep protocol, the independent review (`review-01.md`), the orchestrator's verified anchor facts from the Kimi K3, DeepSeek-V4, GLM-5, GLM-5.2, and GLM-5.3 primary sources (`frontier-anchor-facts.md`), the merged reference set (`merged_refs.json`), and the two build scripts that generate `references.md` and `search-log.md`. Delete `working/` before merge if the portfolio repository should carry only the five deliverables.
+The evidence base that produced the report (four sweep registers, the frontier recipe register, the shared protocol, the independent review, the orchestrator's anchor facts, the merged reference set, and the two build scripts) was committed as `working/` in pull request #1 and removed from `main` immediately after the merge at the author's request. It remains recoverable from the merge commit of pull request #1 (`git show 8ef9540^2:research/frontier-training-methods/working/`).
 
 ## 2. What a new session needs to know
 
@@ -47,9 +47,7 @@ git fetch origin claude/frontier-model-training-research-lw2yob
 git checkout claude/frontier-model-training-research-lw2yob
 ```
 
-Read, in order: `README.md`, `01-research-plan.md` Sections 1, 3, 4, and 6, then `02-research-report.md` Sections 1, 2.3, and 7. The path sections and `references.md` are lookup material. To regenerate `references.md` after editing a sweep JSON, run `python3 working/build_refs.py` with the sweep paths adjusted to `working/sweeps/`; `working/build_log.py` regenerates `search-log.md` the same way.
-
-To re-run a sweep, the shared protocol in `working/sweeps/PROTOCOL.md` is the agent brief, and each `working/sweeps/path*.md` ends with the search log of queries that worked.
+Read, in order: `README.md`, `01-research-plan.md` Sections 1, 3, 4, and 6, then `02-research-report.md` Sections 1, 2.3, and 7. The path sections and `references.md` are lookup material. To regenerate `references.md` or `search-log.md`, or to re-run a sweep from the shared protocol, restore the evidence base from the pull request #1 merge commit as described in Section 1.
 
 ## 5. Decisions taken without asking, for your review
 
@@ -57,4 +55,4 @@ To re-run a sweep, the shared protocol in `working/sweeps/PROTOCOL.md` is the ag
 - Register columns: six disclosing model families (Kimi K3; DeepSeek-V4; GLM-5, 5.2, 5.3; Nemotron 3; Qwen3 and 3.5; MiniMax M1 to M2.7). Proprietary system cards were omitted from the matrix because they disclose evaluations rather than algorithms, and the report says so.
 - A fifth matrix cell value, "rejected," was added to the plan after Kimi K3 and GLM-5 each reported a tested-and-dropped method.
 - Workshop papers were assigned Tier D under the plan's main-track rule; the report labels them "ICML workshop" where cited.
-- The `working/` directory was committed so the evidence base survives the ephemeral container.
+- The `working/` directory was committed in pull request #1 so the evidence base survives the ephemeral container, then removed from `main` at the author's request.
