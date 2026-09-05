@@ -327,4 +327,105 @@ Blocked hosts were not retried. OpenReview forum pages returned browser-check pa
 
 ## Frontier recipe register
 
-(log pending)
+Every query and fetch issued for this register (session 2026-09-05, UTC times). Large Exa results were persisted by the harness to tool-result files and read via grep/KWIC rather than inline.
+
+| Time | Channel | Query / URL |
+|---|---|---|
+| 21:22:50 | Exa fetch | https://arxiv.org/abs/2507.20534 ; https://arxiv.org/abs/2607.24653 ; https://arxiv.org/abs/2602.15763 ; https://arxiv.org/abs/2512.02556 ; https://arxiv.org/abs/2508.06471 |
+| 21:22:52 | Exa fetch | https://arxiv.org/abs/2505.09388 ; https://arxiv.org/abs/2506.13585 ; https://arxiv.org/abs/2508.10925 ; https://arxiv.org/abs/2503.19786 ; https://www.nature.com/articles/s41586-025-09422-z |
+| 21:22:53 | Exa fetch | https://arxiv.org/abs/2509.14233 ; https://arxiv.org/abs/2509.01322 ; https://arxiv.org/abs/2507.19427 ; https://arxiv.org/abs/2505.07608 ; https://arxiv.org/abs/2507.22448 |
+| 21:22:54 | Exa fetch | https://arxiv.org/abs/2504.21318 ; https://arxiv.org/abs/2507.13575 ; https://arxiv.org/abs/2506.10910 ; https://arxiv.org/abs/2507.06261 ; https://arxiv.org/abs/2512.13961 |
+| 21:22:55 | Exa search | Kimi K2.5 technical report Moonshot AI arXiv 2026 multimodal agentic |
+| 21:22:56 | Exa search | DeepSeek-V4 technical report release 2026 open weights |
+| 21:22:57 | Exa search | GLM-5.1 GLM-5.2 GLM-5.3 Zhipu Z.ai release 2026 open weights technical report |
+| 21:22:58 | Exa search | Qwen3.5 technical report Alibaba 2026 release open weights |
+| 21:22:59 | Exa search | MiniMax M2.5 or MiniMax M3 technical report release 2026 |
+| 21:23:00 | Exa search | NVIDIA Nemotron 3 Nano Super Ultra technical report arXiv hybrid Mamba MoE |
+| 21:23:00 | Exa search | Gemma 4 release Google DeepMind open model 2026 |
+| 21:23:01 | Exa search | GPT-5.5 or GPT-5.6 Sol OpenAI system card 2026 |
+| 21:23:03 | Exa search | Anthropic Claude Opus 4.7 or Opus 4.8 or Claude Fable 5 or Mythos 5 system card 2026 |
+| 21:23:03 | Exa search | Arcee Trinity Large open weights MoE model technical report 2026 |
+| 21:23:04 | Exa search | xAI Grok 5 release 2026 model card |
+| 21:24:20 | Exa fetch | https://arxiv.org/html/2507.20534 ; https://arxiv.org/html/2607.24653 ; https://arxiv.org/html/2602.02276 |
+| 21:24:20 | Exa fetch | https://arxiv.org/html/2512.02556 ; https://arxiv.org/html/2606.19348 ; https://arxiv.org/abs/2501.12948 |
+| 21:24:20 | Exa fetch | https://arxiv.org/html/2602.15763 ; https://arxiv.org/html/2508.06471 ; https://arxiv.org/html/2505.09388 |
+| 21:24:21 | Exa fetch | https://arxiv.org/html/2506.13585 ; https://arxiv.org/html/2605.26494 ; https://arxiv.org/html/2606.13392 |
+| 21:24:23 | Exa fetch | https://arxiv.org/html/2508.10925 ; https://arxiv.org/html/2503.19786 ; https://arxiv.org/html/2607.02770 |
+| 21:24:24 | Exa fetch | https://arxiv.org/html/2512.20848 ; https://arxiv.org/html/2604.12374 ; https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf |
+| 21:24:25 | Exa fetch | https://arxiv.org/html/2512.13961 ; https://arxiv.org/html/2509.14233 ; https://arxiv.org/html/2509.01322 |
+| 21:24:26 | Exa fetch | https://arxiv.org/html/2507.19427 ; https://arxiv.org/html/2507.22448 ; https://arxiv.org/html/2504.21318 |
+| 21:24:27 | Exa fetch | https://arxiv.org/html/2507.13575 ; https://arxiv.org/html/2506.10910 ; https://arxiv.org/html/2602.17004 |
+| 21:24:28 | Exa fetch | https://arxiv.org/html/2507.06261 ; https://arxiv.org/html/2505.07608 |
+| 21:24:29 | Exa search | DeepSeek-V3.1 release August 2025 hybrid thinking mode model card UE8M0 FP8 continued pretraining long context |
+| 21:24:30 | Exa search | DeepSeek-V3.2-Exp September 2025 DeepSeek Sparse Attention lightning indexer technical report |
+| 21:24:31 | Exa search | GLM-4.7 release December 2025 Z.ai blog open weights |
+| 21:24:32 | Exa search | GLM-5.1 release date April 2026 Z.ai blog agentic engineering open weights |
+| 21:24:33 | Exa search | Qwen3-Next 80B-A3B September 2025 blog hybrid Gated DeltaNet gated attention multi-token prediction zero-centered RMSNorm |
+| 21:24:34 | Exa search | Qwen3.5 technical report arXiv 2026 Qwen Team pretraining reinforcement learning |
+| 21:24:35 | Exa search | Llama 4 Scout Maverick April 2025 Meta blog iRoPE interleaved attention MetaP natively multimodal mixture of experts FP8 30 trillion tokens |
+| 21:24:37 | Exa search | Gemma 3n June 2025 Per-Layer Embeddings MatFormer KV cache sharing model announcement |
+| 21:24:38 | Exa search | Mistral Large 3 December 2025 open weights mixture of experts 675B announcement Mistral 3 family |
+| 21:24:39 | Exa search | Devstral 2 December 2025 Mistral coding model open weights announcement |
+| 21:24:40 | Exa search | SmolLM3 3B Hugging Face July 2025 NoPE grouped query attention 11 trillion tokens dual mode reasoning technical blog or arXiv report |
+| 21:24:41 | Exa search | Ling 2.0 Ling-1T Ant Group technical report arXiv Every Activation Boosted scaling 1 trillion open language foundation model |
+| 21:24:42 | Exa search | Ring-1T Ant Group thinking model technical report arXiv IcePop C3PO ASystem |
+| 21:24:44 | Exa search | Xiaomi MiMo-V2-Flash technical report December 2025 hybrid sliding window attention MoE multi-token prediction |
+| 21:24:44 | Exa search | Tencent Hunyuan-A13B technical report 2025 open weights MoE hybrid reasoning arXiv |
+| 21:24:45 | Exa search | ByteDance Seed-OSS-36B August 2025 open source model 12 trillion tokens thinking budget GitHub |
+| 21:24:47 | Exa search | IBM Granite 4.0 October 2025 hybrid Mamba-2 transformer mixture of experts NoPE release announcement |
+| 21:24:47 | Exa search | xAI Grok 2.5 open weights release August 2025 Hugging Face 270B mixture of experts |
+| 21:24:48 | Exa search | Apple Intelligence Foundation Language Models Tech Report 2026 arXiv |
+| 21:24:49 | Exa search | OpenAI o3 and o4-mini system card April 2025 |
+| 21:24:50 | Exa search | GPT-5 system card August 2025 OpenAI unified system real-time router reasoning |
+| 21:24:50 | Exa search | GPT-5.5 system card OpenAI 2026 deployment safety hub |
+| 21:24:52 | Exa search | Claude Opus 4 and Claude Sonnet 4 system card May 2025 Anthropic training data process |
+| 21:24:53 | Exa search | Claude Opus 4.8 system card May 2026 Anthropic |
+| 21:24:53 | Exa search | Gemini 3 Pro model card November 2025 Google DeepMind training details sparse mixture of experts TPU |
+| 21:24:55 | Exa search | Gemini Diffusion experimental text diffusion model Google DeepMind May 2025 announcement |
+| 21:24:56 | Exa search | Grok 4 model card xAI July 2025 reinforcement learning pretraining scale |
+| 21:24:56 | Exa search | Kimi K2 Thinking November 2025 Moonshot blog native INT4 quantization-aware training interleaved thinking 200-300 tool calls |
+| 21:26 | local | Built KWIC index (kwic.txt) over all persisted Exa fetch outputs; ~90 method keywords, ±200-char context |
+| 21:26:17 | Exa search | Kimi K2 technical report reinforcement learning verifiable rewards self-critique rubric reward budget control PTX auxiliary loss temperature decay |
+| 21:26:17 | Exa search | Kimi K3 technical report post-training reinforcement learning reasoning effort levels optimizer MuonClip pre-training tokens Stable LatentMoE |
+| 21:26:19 | Exa search | DeepSeek-V3.2 technical report GRPO unbiased KL estimate off-policy sequence masking keep routing mixed RL specialist distillation rubric generative reward model |
+| 21:26:20 | Exa search | GLM-5 technical report asynchronous reinforcement learning algorithm off-policy correction slime pre-training details Muon optimizer MTP FP8 |
+| 21:26:21 | Exa search | GLM-4.5 technical report slime RL infrastructure expert model iteration self-distillation Muon optimizer QK-Norm MTP loss-free balance |
+| 21:26:23 | Exa search | Qwen3 technical report post-training thinking mode fusion strong-to-weak distillation GSPO reasoning RL thinking budget global-batch load balancing |
+| 21:26:23 | Exa search | MiniMax-M1 CISPO clipped importance sampling policy optimization RL algorithm lightning attention hybrid 7:1 |
+| 21:26:25 | Exa search | MiniMax-M2 series technical report Forge RL system windowed-FIFO prefix-tree merging optimizer pretraining FP8 MTP GQA sigmoid gating RL algorithm |
+| 21:26:26 | Exa search | MiniMax M3 technical report arXiv 2606.13392 MiniMax Sparse Attention MSA pretraining tokens optimizer post-training RL native multimodal |
+| 21:26:27 | Exa search | gpt-oss model card MXFP4 quantization attention sinks reinforcement learning variable effort reasoning training deliberative alignment pretraining tokens |
+| 21:26:28 | Exa search | Gemma 4 technical report post-training reinforcement learning distillation quantization-aware training MTP drafters local global attention ratio positional encoding |
+| 21:26:29 | Exa search | Nemotron 3 Ultra technical report Multi-teacher On-Policy Distillation MOPD RLVR GRPO reasoning budget control asynchronous |
+| 21:26:31 | Exa search | Olmo 3 technical report Dolci post-training SFT DPO RLVR OlmoRL asynchronous Dolma 3 pretraining tokens midtraining long-context extension |
+| 21:26:32 | Exa search | Apertus technical report Goldfish objective xIELU AdEMAMix WSD schedule 15T tokens QRPO post-training |
+| 21:26:33 | Exa search | LongCat-Flash technical report zero-computation experts shortcut-connected MoE hyperparameter transfer model growth initialization 20T tokens RL DORA |
+| 21:26:34 | Exa search | Step-3 technical report multi-matrix factorization attention MFA attention-FFN disaggregation 316B 38B active pretraining tokens |
+| 21:26:35 | Exa search | Falcon-H1 technical report muP maximal update parametrization hybrid Mamba-2 attention parallel 18T tokens tokenizer WSD schedule |
+| 21:26:36 | Exa search | Phi-4-reasoning technical report SFT on o3-mini traces Phi-4-reasoning-plus GRPO outcome-based reinforcement learning |
+| 21:26:38 | Exa search | Apple Intelligence Foundation Models 2025 tech report Parallel-Track MoE PT-MoE 2-bit quantization-aware training reinforcement learning REINFORCE leave-one-out asynchronous RL platform pretraining tokens |
+| 21:26:39 | Exa search | Magistral technical report GRPO modifications eliminating KL penalty clip-higher length normalization asynchronous RL infrastructure reward shaping |
+| 21:26:41 | Exa search | Gemini 2.5 technical report sparse mixture-of-experts architecture thinking budget reinforcement learning distillation Flash TPU pre-training |
+| 21:26:41 | Exa search | Hunyuan-A13B technical report pretraining 20T tokens dual-mode chain of thought GRPO reinforcement learning scaling laws MoE |
+| 21:26:43 | Exa search | Claude Opus 4.5 system card effort parameter thinking control training data process Anthropic November 2025 |
+| 21:26:44 | Exa search | Claude Fable 5 Mythos 5 system card training data and process section model architecture and training methodology |
+| 21:26:45 | Exa search | DeepSeek-R1 Nature paper GRPO rule-based rewards cold-start distillation Qwen Llama peer review DeepSeek-R1-Zero |
+| 21:26:46 | Exa search | Qwen3.8 27B release August 2026 model card architecture training details |
+| 21:26:47 | Exa search | Tencent Hunyuan open weights 2026 HY3 or Hunyuan 3 release technical report |
+| 21:26:48 | Exa search | Mistral Large 3 technical details pretraining tokens optimizer architecture granular MoE model card training methodology |
+| 21:28 | local | KWIC extracts persisted: be8ojqu10.txt, brctufuqm.txt, bh7rx9jjt.txt, bsnehmxsy.txt (tool-results dir) |
+| 21:28:30 | Exa search | Llama 4 post-training lightweight SFT online RL lightweight DPO codistillation Behemoth teacher asynchronous online RL continuous |
+| 21:28:31 | Exa search | Olmo 3 OlmoRL algorithm GRPO modifications clip higher no KL loss token-level loss truncated importance sampling active sampling continuous batching in-flight updates |
+| 21:28:33 | Exa search | Kimi K2 technical report MuonClip QK-Clip architecture MLA 384 experts sparsity scaling law rephrasing 15.5T tokens WSD learning rate schedule context 128K YaRN |
+| 21:28:34 | Exa search | Gemma 3 technical report distillation 14T tokens local global attention 5:1 1024 window QAT post-training RL BOND WARM WARP reward |
+| 21:28:35 | Exa search | Nemotron 3 Nano technical report RL multi-environment GRPO reasoning budget control Warmup-Stable-Decay 25 trillion tokens FP8 pretraining aux loss load balancing Mamba-2 no positional embeddings |
+| 21:29:44 | Exa fetch | https://arxiv.org/abs/2607.24653v1 ; https://arxiv.org/abs/2606.19348 ; https://arxiv.org/abs/2602.02276 ; https://arxiv.org/abs/2606.15007 ; https://arxiv.org/abs/2604.12374 |
+| 21:29:44 | Exa search | Kimi K3 technical report pre-training data trillion tokens curriculum learning rate schedule context extension 1M |
+| 21:29:45 | Exa search | Gemma 4 technical report pre-training tokens trillion distillation from Gemini teacher post-training RL reward |
+| 21:29:46 | Exa search | Olmo 3 technical report section 4.4 Reinforcement Learning with OlmoRL truncated importance sampling no KL clip higher active sampling PipelineRL in-flight weight updates |
+| 21:29:48 | WebFetch | https://z.ai/blog/glm-5.3  -> EGRESS_BLOCKED (z.ai); replaced by Exa search highlights |
+| 21:29:50 | Exa search | MiniMax M2 release October 27 2025 open weights 230B total 10B active interleaved thinking announcement |
+| 21:29:50 | Exa search | Kimi K2.5 released January 27 2026 open weights Moonshot announcement |
+| 21:31:08 | Exa search | z.ai blog GLM-5.3 SAO compaction long-horizon RL slime asynchronous throughput 2.3x training rollout logprob agreement 1e-7 |
+| 21:31:08 | Exa search | Kimi K3 pre-training corpus size tokens "trillion tokens" data mixture rephrasing multimodal joint pre-training 2.8T |
+| 22:02 | local | Targeted KWIC re-checks for matrix cells: GLM-4.5 GRPO; GLM-5 Direct Double-sided IS; Nemotron Nano WSD; Trinity schedule; Kimi K2 WSD; K3 staleness; Magistral off-policy |

@@ -40,7 +40,7 @@ The user's standard is academic rigor, with peer-reviewed research first and sub
 - **Tier A, peer-reviewed and published.** Main tracks of NeurIPS 2025, ICML 2025 and 2026, ICLR 2025 and 2026, ACL, EMNLP, NAACL, COLING, COLM 2025 and 2026, AISTATS; journals including TMLR, JMLR, the Nature and Science families, IEEE and ACM transactions, and Wiley titles. Evidence: a proceedings URL, an ACL Anthology URL, an OpenReview "Published" venue line, a DOI, or an arXiv comments line naming the acceptance.
 - **Tier B, submitted and under review.** An arXiv comments line reading "under review" or "submitted to," an OpenReview submission with visible reviews, or a NeurIPS 2026 submission. NeurIPS 2026 notifications arrive September 24, 2026, so every NeurIPS 2026 submission holds Tier B on the execution date. ICLR 2027 submissions close September 25, 2026, so none is public.
 - **Tier C, industrial technical report or model card.** Primary evidence of frontier adoption. Tier C sources populate the frontier register. Tier A and B sources establish a method's validity.
-- **Tier D, preprint with no review signal.** Retained only when it is the primary statement of a method that matters to a path, and labelled as such in every citation.
+- **Tier D, preprint with no review signal.** Retained only when it is the primary statement of a method that matters to a path, and labeled as such in every citation. Workshop papers count as Tier D, since Tier A is reserved for main tracks and journals.
 
 Every claim in the report carries a tier. A finding that rests on Tier C or D evidence alone says so in the sentence that states it.
 
@@ -66,7 +66,7 @@ The protocol runs seven steps. Steps 1 through 4 run once per path, in parallel 
 3. **Snowballing.** Backward: the reference lists of Kimi K3 (arXiv 2607.24653), GLM-5 (arXiv 2602.15763), IndexCache (arXiv 2603.12201), DeepSeek-R1 (Nature, 2025), DAPO (arXiv 2503.14476), and "Muon is Scalable for LLM Training" (arXiv 2502.16982) supply the 2025 and 2026 methods that frontier authors themselves cite. Forward: the foundational papers of each family (Muon, GRPO, DeepSeek Sparse Attention, generalized knowledge distillation) supply their 2025 and 2026 successors.
 4. **Verification.** Every candidate is confirmed against its arXiv abstract page, proceedings page, or journal page before it enters the register. The record carries the identifier, title, first author, affiliation, first and latest version dates, tier, quoted tier evidence, venue, one-sentence method, largest scale tested, headline claim, path relevance, and known frontier adoption. Every identifier enters the register from a fetched page.
 5. **Frontier register.** Section 7 lists the models and fields. Every non-empty cell carries a quoted phrase and a source URL.
-6. **Gap matrix.** Rows are methods with Tier A or B evidence. Columns are frontier models. Cells read "disclosed," "hinted," "absent," or "undisclosed." A method with an "absent" or "undisclosed" cell in every frontier column is a gap candidate.
+6. **Gap matrix.** Rows are methods with Tier A or B evidence. Columns are frontier models. Cells read "disclosed," "hinted," "absent," "undisclosed," or "rejected," where "rejected" marks a method a report tested and dropped. A method whose every frontier cell reads "absent," "undisclosed," or "rejected" is a gap candidate.
 7. **Grading and write-up.** Each gap candidate receives a grade from Section 3, a statement of the strongest evidence for the method, a statement of the largest scale tested, and a statement of the reason the report judges it unexplored.
 
 ## 7. Frontier register
@@ -79,7 +79,7 @@ Fields per model: release date; total and active parameters; architecture family
 
 A candidate enters the register when it meets four conditions. Its first public date falls inside the window. It changes how a language model of at least 1B parameters is trained, or it supplies theory with language-model experiments. Its primary source is reachable. It reports a measurable effect or a stated open problem.
 
-A candidate stays out when it changes inference alone, prompting alone, or evaluation alone; when it applies a model to a downstream domain; or when it reports results below 1B parameters with no scaling argument. Baseline papers from before the window enter only as labelled baselines.
+A candidate stays out when it changes inference alone, prompting alone, or evaluation alone; when it applies a model to a downstream domain; or when it reports results below 1B parameters with no scaling argument. Baseline papers from before the window enter only as labeled baselines.
 
 ## 9. Threats to validity and their controls
 
