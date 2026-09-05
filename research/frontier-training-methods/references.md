@@ -5,9 +5,9 @@ Every source the sweeps verified, grouped by evidence tier. Tier A is peer-revie
 | Tier | Count |
 |---|---|
 | A | 110 |
-| B | 21 |
+| B | 20 |
 | C | 57 |
-| D | 125 |
+| D | 126 |
 | Total | 313 |
 
 
@@ -17,7 +17,7 @@ Every source the sweeps verified, grouped by evidence tier. Tier A is peer-revie
 |---|---|---|---|---|---|---|---|
 | [2501.00663](https://arxiv.org/abs/2501.00663) | Ali Behrouz et al. | 2024-12-31 | Titans: Learning to Memorize at Test Time | NeurIPS 2025 | NeurIPS 2025 proceedings PDF a4ca07aa108036f80cbb5b82285fd4b1; neurips.cc poster 119639 | 1 | yes |
 | [aclanthology:2025.emnlp-main.250](https://aclanthology.org/2025.emnlp-main.250/) | Chen et al. | 2025 (EMNL | Improving Reasoning Capabilities in Small Models through Mixture-of-layers Distillation with Stepwise Attentio | EMNLP 2025 | aclanthology.org/2025.emnlp-main.250/ | 2 | yes |
-| [iclr2026:poster/10007896](https://iclr.cc/virtual/2026/poster/10007896) | (authors not fetched) | 2025 (arXi | Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs (CoT-Pas | ICLR 2026 | ICLR 2026 poster listing (iclr.cc/virtual/2026/poster/10007896) | 4 | no |
+| [iclr2026:poster/10007896](https://iclr.cc/virtual/2026/poster/10007896) | Wen, X. et al. | 2025-06-17 | Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs (CoT-Pass@K) | ICLR 2026 | ICLR 2026 poster listing (iclr.cc/virtual/2026/poster/10007896) names Xumeng Wen et al., Microsoft Research Asia; arXiv 2506.14245; OpenReview jGbRWwIidy | 4 | yes |
 | [2501.02423](https://arxiv.org/abs/2501.02423) | Xingwu Sun et al. | 2025-01-05 | Scaling Laws for Floating-Point Quantization Training | ICML 2025 | PMLR v267:57544-57570 (ICML 2025) | 1 | yes |
 | [2501.09686](https://arxiv.org/abs/2501.09686) | Xu, F. et al. | 2025-01-16 | Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models | Patterns 2025 | Patterns (Cell Press) 6(10) 101370, 10 Oct 2025 (sciencedirect S2666389925002181) | 4 | yes |
 | [2501.11873](https://arxiv.org/abs/2501.11873) | Zihan Qiu et al. | 2025-01-21 | Demons in the Detail: On Implementing Load Balancing Loss for Training Specialized Mixture-of-Expert Models | ACL 2025 | ACL Anthology 2025.acl-long.249 | 1 | yes |
@@ -140,7 +140,6 @@ Every source the sweeps verified, grouped by evidence tier. Tier A is peer-revie
 | [2504.06214](https://arxiv.org/abs/2504.06214) | Chejian Xu et al. | 2025-04-08 | From 128K to 4M: Efficient Training of Ultra-Long Context Large Language Models (UltraLong) | COLM 2025 (unconfirmed) | Search snippet indicates COLM 2025 but not confirmed on colmweb/openreview | 1,3 | yes |
 | [2505.10833](https://arxiv.org/abs/2505.10833) | He, Zeng, Hu, Yang, Zhang, Zhao | 2025-05-16 | MergeBench: A Benchmark for Merging Domain-Specialized LLMs | OpenReview submission | OpenReview rw50iUoyLu with reviews | 3 | yes |
 | [2505.22617](https://arxiv.org/abs/2505.22617) | Cui, G. et al. | 2025-05-28 | The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models | OpenReview submission | OpenReview PDF vXoksdcfqC exists; NeurIPS 2025 acceptance not confirmed on neurips.cc | 4 | yes |
-| [openreview:Y50Mdo9k1v](https://openreview.net/forum?id=Y50Mdo9k1v) | Sundarapandiyan, Goldstein, Panda | 2025-06-10 | Foreign Sparse Attention: Effective Distillation into Sparse Attention | OpenReview submission | OpenReview forum Y50Mdo9k1v (2025-06-10) and PDF SUupmv3fn4; no arXiv abs page found | 3 | no |
 | [2506.18254](https://arxiv.org/abs/2506.18254) | Yu, T. et al. | 2025-06-23 | RLPR: Extrapolating RLVR to General Domains without Verifiers | OpenReview (ICLR 2026 submission) | OpenReview T03kNBYq81 ICLR 2026 submission with Feb-2026 revisions; acceptance not confirmed | 4 | yes |
 | [2506.20480](https://arxiv.org/abs/2506.20480) | Su, Shen, Yin, Liu, Yang, Geiping | 2025-06-25 | GPTailor: Large Language Model Pruning Through Layer Cutting and Stitching | OpenReview submission | OpenReview aragGJGLhd submission | 3 | yes |
 | [2507.14843](https://arxiv.org/abs/2507.14843) | Wu, F. et al. | 2025-07-20 | The Invisible Leash: Why RLVR May or May Not Escape Its Origin | OpenReview (ICLR 2026 submission) | OpenReview KXtLWJAzgh 'Under review as a conference paper at ICLR 2026'; acceptance not confirmed | 4 | yes |
@@ -238,6 +237,7 @@ Every source the sweeps verified, grouped by evidence tier. Tier A is peer-revie
 | [2505.21067](https://arxiv.org/abs/2505.21067) | Hu et al. | 2025-05-27 | Why Distillation can Outperform Zero-RL: The Role of Flexible Reasoning | preprint | arXiv preprint | 2 | yes |
 | [2506.06607](https://arxiv.org/abs/2506.06607) | Goddard, Fernandes Neto | 2025-06-07 | Training-Free Tokenizer Transplantation via Orthogonal Matching Pursuit | arXiv | No review signal found | 3 | yes |
 | [2506.08007](https://arxiv.org/abs/2506.08007) | Qingxiu Dong et al. | 2025-06-09 | Reinforcement Pre-Training (RPT) | Preprint | No review signal found | 1 | yes |
+| [openreview:Y50Mdo9k1v](https://openreview.net/forum?id=Y50Mdo9k1v) | Sundarapandiyan, Goldstein, Panda | 2025-06-10 | Foreign Sparse Attention: Effective Distillation into Sparse Attention | ICML 2025 ES-FoMo III workshop | icml.cc/virtual/2025/51812 lists it as "Poster in Workshop: ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models"; workshop, so Tier D under the plan's main-track rule | 3 | yes |
 | [2506.13759](https://arxiv.org/abs/2506.13759) | Runpeng Yu et al. | 2025-06-16 | Discrete Diffusion in Large Language and Multimodal Models: A Survey | Preprint (survey, OpenReview submission) | OpenReview forum 0DsqnkP8Cp exists (venue not confirmed) | 1 | yes |
 | [2506.17298](https://arxiv.org/abs/2506.17298) | Inception Labs (Samar Khanna et al.) | 2025-06-17 | Mercury: Ultra-Fast Language Models Based on Diffusion | Technical report (non-listed lab) | Commercial technical report; lab not on protocol's Tier-C list | 1 | yes |
 | [2506.15054](https://arxiv.org/abs/2506.15054) | Lizhang Chen et al. | 2025-06-18 | Muon Optimizes Under Spectral Norm Constraints | NeurIPS 2025 workshop | NeurIPS 2025 OPT workshop (neurips.cc/virtual/2025/124312, contributed talk); not main track | 1 | yes |
@@ -270,7 +270,7 @@ Every source the sweeps verified, grouped by evidence tier. Tier A is peer-revie
 | [2512.10772](https://arxiv.org/abs/2512.10772) | Glocker, Kukk, Oji, Bollmann, Kuhlmann,  | 2025-12-11 | Grow Up and Merge: Scaling Strategies for Efficient Language Adaptation | arXiv | No review signal found | 3 | yes |
 | [2512.12167](https://arxiv.org/abs/2512.12167) | Gelberg, Eguchi, Akiba, Cetin | 2025-12-13 | Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings (DroPE) | arXiv | No review signal found | 3 | yes |
 | [2512.17008](https://arxiv.org/abs/2512.17008) | Li, J. et al. | 2025-12-18 | Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs | arXiv | arXiv abs only | 4 | yes |
-| [2601.05607](https://arxiv.org/abs/2601.05607) | (not fetched) | 2026-01 | Orchestrating Tokens and Sequences: Dynamic Hybrid Policy Optimization for RLVR | arXiv | arXiv only (WebSearch hit); not fetched | 4 | no |
+| [2601.05607](https://arxiv.org/abs/2601.05607) | Min, Z. et al. | 2026-01-09 | Orchestrating Tokens and Sequences: Dynamic Hybrid Policy Optimization for RLVR | arXiv | arXiv abs page verified: Zijun Min et al., Xiamen University, Shopee, and AIR Tsinghua; "We will release our code upon acceptance" names no venue | 4 | yes |
 | [2601.07155](https://arxiv.org/abs/2601.07155) | Jang et al. | 2026-01-12 | Stable On-Policy Distillation through Adaptive Target Reformulation | preprint | arXiv preprint | 2 | yes |
 | [2601.14249](https://arxiv.org/abs/2601.14249) | Yang et al. | 2026-01-20 | Which Reasoning Trajectories Teach Students to Reason Better? A Simple Metric of Informative Alignment | preprint | arXiv preprint | 2 | yes |
 | [2601.15394](https://arxiv.org/abs/2601.15394) | Borkar et al. | 2026-01-21 | Memorization Dynamics in Knowledge Distillation for Language Models | preprint | arXiv preprint | 2 | yes |

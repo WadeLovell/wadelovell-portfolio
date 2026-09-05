@@ -11,4 +11,4 @@ A research program executed on September 5, 2026. It identifies training methods
 
 Evidence window: December 31, 2024 through September 5, 2026.
 
-Scale of the run: four literature sweeps and one frontier recipe register, 316 unique verified sources (110 Tier A peer-reviewed, 21 Tier B under review, 57 Tier C technical reports, 125 Tier D preprints) plus 41 register-only Tier C sources, 67 frontier and open-weights model entries, a 38-method by 6-family adoption matrix, and 20 ranked gaps.
+Scale of the run: four literature sweeps and one frontier recipe register, 316 unique verified sources (110 Tier A peer-reviewed, 20 Tier B under review, 57 Tier C technical reports, 126 Tier D preprints) plus 41 register-only Tier C sources, 67 frontier and open-weights model entries, a 37-method by 6-family adoption matrix, and 20 ranked gaps.
