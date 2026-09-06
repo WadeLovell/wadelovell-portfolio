@@ -6,6 +6,7 @@ A research program executed on September 5, 2026. It identifies training methods
 |---|---|
 | `01-research-plan.md` | Thesis, scope, grades of "unexplored," evidence tiers, channels, search protocol, register design, threats to validity |
 | `02-research-report.md` | Findings organized as one argument across the four paths, with the gap matrix and graded gaps |
+| `03-condensed-report.docx` | The same argument in 2,373 words for a reader outside the program, with the top ten ranked gaps and the two corrections the registers forced |
 | `references.md` | Every source with identifier, tier, tier evidence, and venue |
 | `search-log.md` | Every query, channel, hit count, verification outcome, and coverage limit |
 
