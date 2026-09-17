@@ -478,3 +478,36 @@ Six items keep Tier B with their evidence updated to record what this pass estab
 
 Demoting those six on an absent search result alone would invert the plan's own discipline, which admits a tier change on a primary page and holds the line otherwise.
 
+## Venue-column audit, September 17, 2026
+
+Two workshop papers had been filed at Tier B, so the venue column was treated as a claim to check rather than a fact to trust. All 355 reference rows were audited for contradictions between the assigned tier and the row's own venue and evidence text, then every suspect was checked against a primary venue page.
+
+| Test | Result |
+|---|---|
+| Workshop language at Tier A or B | None. Both misfiles are corrected, and three other workshop papers sit correctly at Tier D |
+| Hedged venue wording at Tier A or B | Eight rows, all Tier B submissions where the hedge is accurate |
+| Tier A resting on evidence weaker than a proceedings or anthology URL | Four rows, all verified below |
+| Tier D whose evidence names a published venue | Four rows, all correctly Tier D |
+| Tier B naming an already-decided venue | Nine rows, six carried forward from the partial re-grade and three added below |
+
+### The four Tier A rows, all confirmed
+
+Each held the correct tier on evidence the plan does not list. Each now carries a venue page.
+
+| Item | Was | Now |
+|---|---|---|
+| 2510.13999, REAP the Experts | The authors' own GitHub bibtex | iclr.cc/virtual/2026/poster/10006871, ICLR 2026 Poster, Lasby et al., 20B to 1T range confirmed |
+| 2509.14252, LLM-JEPA | A secondary paper-note | iclr.cc/virtual/2026/poster/10010475, ICLR 2026 Poster |
+| 2502.19261, Drop-Upcycling | An arXiv "to appear at ICLR 2025" line | proceedings.iclr.cc 2025 entry d24b7366d714b09a977946ef0d9bf3ad and iclr.cc/virtual/2025/poster/28794 |
+| 2510.05491, NorMuon | A Microsoft Research publication page | icml.cc/virtual/2026/poster/61880, ICML 2026 Poster, July 7 2026 |
+
+REAP carries rank 3 in Section 7, the expert-pruning result validated on a trillion-parameter checkpoint, so its evidence mattered most and it holds.
+
+### A correction to the partial re-grade above
+
+REAP and LLM-JEPA were found on iclr.cc/virtual rather than proceedings.iclr.cc, which showed that the earlier search covered the narrower of the two ICLR indexes. The six held Tier B items were therefore re-tested against iclr.cc as well. PRIME and pass@k training return no poster page there either, so the finding stands across both indexes and the six keep Tier B with acceptance at ICLR 2026 settled against them.
+
+### Three further Tier B items with a stale review signal
+
+Each names a venue that has already decided, and each is held for the September 25 pass rather than re-graded here: 2505.22617 (entropy mechanism, NeurIPS 2025 acceptance never confirmed), 2509.01440 (submitted to the NeurIPS 2025 Datasets and Benchmarks track), and 2605.26496 (Dense2MoE, earlier version under review at ICLR 2026).
+
