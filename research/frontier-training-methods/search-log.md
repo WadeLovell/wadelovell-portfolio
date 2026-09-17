@@ -451,3 +451,63 @@ Executed September 5, 2026, after the merge of the research program, to close th
 - **Foreign Sparse Attention moved from Tier B to Tier D.** The plan admits only Tier A and Tier B methods as matrix rows and grades a gap on Tier A or Tier B evidence, and it assigns workshop papers to Tier D. The item therefore leaves the adoption matrix, which drops from 38 rows to 37, and its G1 gap, "native sparse attention by distillation," leaves the Path 3 gap list, which drops from ten interventions to nine, and the graded-gap total drops from 38 to 37. The gap held no place in the ranked table of 20, so that ranking stands unchanged. Path 3 tier counts move to 27 Tier A, 9 Tier B, 20 Tier C, and 39 Tier D. Reference-list Tier B counts move to 20 and Tier D to 126.
 - **The CoT-Pass@K poster gained its authors.** Path 4 now reports all 89 sources verified against a primary page, and Section 6 cites Wen et al., 2026, ICLR in place of an unattributed poster.
 
+## Partial Tier B re-grade, September 17, 2026
+
+Run ahead of the NeurIPS 2026 notification date to settle the Tier B items whose named venue had already decided. The NeurIPS half waits for September 24, 2026 AoE.
+
+Channels confirmed on the day: direct curl and WebFetch to arxiv.org, openreview.net, and neurips.cc return 403 through the egress proxy, as does the arXiv API. Exa fetch and domain-filtered WebSearch both reach those sites. OpenReview forum pages return a Cloudflare browser check through Exa about half the time.
+
+| # | Channel | Query or URL | Outcome |
+|---|---|---|---|
+| P1 | Exa fetch | neurips.cc/Conferences/2026/Dates | Paper Author Notifications confirmed as Sep 24 '26 Anywhere on Earth. Anywhere on Earth runs to 11:59 UTC on September 25, so the scheduled re-grade moved from September 24 to September 25 |
+| P2 | Exa fetch | openreview.net forums T03kNBYq81, eslxxopXTF, sokbAEcsJM, 1aAFc4OANr | All four read "Submitted to ICLR 2026" with revision dates in February 2026. Forums CmyqMn3HeJ, KXtLWJAzgh returned a Cloudflare browser check |
+| P3 | Exa search | openreview jGbRWwIidy, the confirmed ICLR 2026 poster | Control test. The accepted paper carries a proceedings entry at proceedings.iclr.cc/paper_files/paper/2026/file/517f9b9c227b9dd51dba4560f37165ed-Paper-Conference.pdf. Presence in that index is the reliable acceptance signal, and the forum venue line read through this channel is not |
+| P4 | WebSearch (proceedings.iclr.cc) | PRIME; RLPR; DeepSeek-GRM; Hybrid Architectures | No proceedings entry for any of the four. Each search returned other ICLR 2026 proceedings PDFs, so the index is searchable and the absence carries weight |
+| P5 | Exa search | The Invisible Leash, ICLR 2026 | No proceedings entry. A revised-title version sits at OpenReview qGhFl1SiPX, so a later review round is in progress |
+| P6 | Exa search | UltraLong, From 128K to 4M, COLM 2025 | Published at ACL 2026 Findings, aclanthology.org/2026.findings-acl.640. The unconfirmed COLM 2025 attribution is superseded |
+
+### Re-grades applied
+
+- **2504.06214 (UltraLong) moved from Tier B to Tier A.** ACL Anthology carries it as 2026.findings-acl.640. The plan admits an ACL Anthology URL as Tier A evidence, and the register already holds three ACL Findings entries at Tier A. Path 1 counts move to 40 Tier A and 2 Tier B. Path 3 counts move to 28 Tier A and 8 Tier B. Section 5 now cites it as ACL Findings in place of Tier C, which strengthens the long-context gap without changing its grade or rank.
+- **openreview:xsonlP8DRV (Truncated Importance Sampling) moved from Tier B to Tier D.** Its own evidence column already read "workshop, not main track," and the plan assigns workshop papers to Tier D. This is the second workshop paper found at Tier B, after Foreign Sparse Attention on September 5. The report never cites it, so the matrix, the gaps, and the ranking stand unchanged. Path 4 counts move to 8 Tier B and 26 Tier D.
+- Reference tier counts move to 111 Tier A, 18 Tier B, and 127 Tier D, with the 313 in-window total and the 3 labeled baselines unchanged.
+
+### Held for the September 25 pass
+
+Six items keep Tier B with their evidence updated to record what this pass established: each names ICLR 2026 as its venue, each sits outside the ICLR 2026 proceedings index, and the forums that resolved still read "Submitted to ICLR 2026." Acceptance at ICLR 2026 is therefore settled against them, and a current review signal elsewhere stays open. The September 25 pass checks NeurIPS 2026, where several may have been resubmitted. The items are 2502.01456 (PRIME), 2504.02495 (DeepSeek-GRM), 2506.18254 (RLPR), 2507.14843 (Invisible Leash), 2508.10751 (pass@k training), and 2510.04800 (hybrid architectures).
+
+Demoting those six on an absent search result alone would invert the plan's own discipline, which admits a tier change on a primary page and holds the line otherwise.
+
+## Venue-column audit, September 17, 2026
+
+Two workshop papers had been filed at Tier B, so the venue column was treated as a claim to check rather than a fact to trust. All 355 reference rows were audited for contradictions between the assigned tier and the row's own venue and evidence text, then every suspect was checked against a primary venue page.
+
+| Test | Result |
+|---|---|
+| Workshop language at Tier A or B | None. Both misfiles are corrected, and three other workshop papers sit correctly at Tier D |
+| Hedged venue wording at Tier A or B | Eight rows, all Tier B submissions where the hedge is accurate |
+| Tier A resting on evidence weaker than a proceedings or anthology URL | Four rows, all verified below |
+| Tier D whose evidence names a published venue | Four rows, all correctly Tier D |
+| Tier B naming an already-decided venue | Nine rows, six carried forward from the partial re-grade and three added below |
+
+### The four Tier A rows, all confirmed
+
+Each held the correct tier on evidence the plan does not list. Each now carries a venue page.
+
+| Item | Was | Now |
+|---|---|---|
+| 2510.13999, REAP the Experts | The authors' own GitHub bibtex | iclr.cc/virtual/2026/poster/10006871, ICLR 2026 Poster, Lasby et al., 20B to 1T range confirmed |
+| 2509.14252, LLM-JEPA | A secondary paper-note | iclr.cc/virtual/2026/poster/10010475, ICLR 2026 Poster |
+| 2502.19261, Drop-Upcycling | An arXiv "to appear at ICLR 2025" line | proceedings.iclr.cc 2025 entry d24b7366d714b09a977946ef0d9bf3ad and iclr.cc/virtual/2025/poster/28794 |
+| 2510.05491, NorMuon | A Microsoft Research publication page | icml.cc/virtual/2026/poster/61880, ICML 2026 Poster, July 7 2026 |
+
+REAP carries rank 3 in Section 7, the expert-pruning result validated on a trillion-parameter checkpoint, so its evidence mattered most and it holds.
+
+### A correction to the partial re-grade above
+
+REAP and LLM-JEPA were found on iclr.cc/virtual rather than proceedings.iclr.cc, which showed that the earlier search covered the narrower of the two ICLR indexes. The six held Tier B items were therefore re-tested against iclr.cc as well. PRIME and pass@k training return no poster page there either, so the finding stands across both indexes and the six keep Tier B with acceptance at ICLR 2026 settled against them.
+
+### Three further Tier B items with a stale review signal
+
+Each names a venue that has already decided, and each is held for the September 25 pass rather than re-graded here: 2505.22617 (entropy mechanism, NeurIPS 2025 acceptance never confirmed), 2509.01440 (submitted to the NeurIPS 2025 Datasets and Benchmarks track), and 2605.26496 (Dense2MoE, earlier version under review at ICLR 2026).
+
