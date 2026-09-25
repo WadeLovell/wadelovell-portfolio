@@ -469,7 +469,7 @@ Channels confirmed on the day: direct curl and WebFetch to arxiv.org, openreview
 ### Re-grades applied
 
 - **2504.06214 (UltraLong) moved from Tier B to Tier A.** ACL Anthology carries it as 2026.findings-acl.640. The plan admits an ACL Anthology URL as Tier A evidence, and the register already holds three ACL Findings entries at Tier A. Path 1 counts move to 40 Tier A and 2 Tier B. Path 3 counts move to 28 Tier A and 8 Tier B. Section 5 now cites it as ACL Findings in place of Tier C, which strengthens the long-context gap without changing its grade or rank.
-- **openreview:xsonlP8DRV (Truncated Importance Sampling) moved from Tier B to Tier D.** Its own evidence column already read "workshop, not main track," and the plan assigns workshop papers to Tier D. This is the second workshop paper found at Tier B, after Foreign Sparse Attention on September 5. The report never cites it, so the matrix, the gaps, and the ranking stand unchanged. Path 4 counts move to 8 Tier B and 26 Tier D.
+- **openreview:xsonlP8DRV (Truncated Importance Sampling) moved from Tier B to Tier D.** Its own evidence column already read "workshop, not main track," and the plan assigns workshop papers to Tier D. This is the second workshop paper found at Tier B, after Foreign Sparse Attention on September 5. [Corrected September 25, 2026: the report does cite it, at Section 6 under the citation key "Yao et al., 2025." The September 17 check searched the report for the title, for "TIS", and for "Yao, F", and the citation key matched none of those. The citation sits in narrative prose about gaps the frontier closed ahead of peer review, outside the matrix, the graded gaps, and the ranked table, so the structural claim held and only the inline tier label was wrong. It now reads Tier D.] Path 4 counts move to 8 Tier B and 26 Tier D.
 - Reference tier counts move to 111 Tier A, 18 Tier B, and 127 Tier D, with the 313 in-window total and the 3 labeled baselines unchanged.
 
 ### Held for the September 25 pass
@@ -510,4 +510,47 @@ REAP and LLM-JEPA were found on iclr.cc/virtual rather than proceedings.iclr.cc,
 ### Three further Tier B items with a stale review signal
 
 Each names a venue that has already decided, and each is held for the September 25 pass rather than re-graded here: 2505.22617 (entropy mechanism, NeurIPS 2025 acceptance never confirmed), 2509.01440 (submitted to the NeurIPS 2025 Datasets and Benchmarks track), and 2605.26496 (Dense2MoE, earlier version under review at ICLR 2026).
+
+## Tier B re-grade, September 25, 2026
+
+Run three hours after the NeurIPS 2026 author-notification window closed at 11:59 UTC. The routine fired into the September 5 session, so the Exa connector was available as the primary channel.
+
+### The NeurIPS half stays open
+
+NeurIPS 2026 acceptances proved unverifiable at this hour against any primary index.
+
+| # | Channel | Query or URL | Outcome |
+|---|---|---|---|
+| N1 | Exa fetch | nips.cc/virtual/2026/papers.html | Page loads and lists nothing: "No topics available. No sessions available." The 2026 virtual index exists and holds no papers |
+| N2 | Exa fetch | openreview.net/group?id=NeurIPS.cc/2026/Conference | Renders a JavaScript loading shell only, so acceptance status stays unreadable through this channel |
+| N3 | WebSearch (neurips.cc) | PRIME; pass@k training | Returns NeurIPS 2025 poster pages and no 2026 entry for either |
+
+A list of roughly 7,000 NeurIPS 2026 titles circulated on Reddit in early September from a dev.neurips.cc export. That thread itself reports the list mixes accepted, rejected, and withdrawn papers. It carries no venue authority and this pass used none of it.
+
+The six items that ICLR 2026 declined and the three with a stale review signal therefore keep Tier B. Their NeurIPS 2026 status resolves once the conference publishes an accepted-paper index.
+
+### Four items published elsewhere and move to Tier A
+
+Each was verified against a primary venue page.
+
+| Item | Was | Now | Evidence |
+|---|---|---|---|
+| 2503.20783, Dr. GRPO | Tier B, OpenReview submission | Tier A, COLM 2025 | OpenReview PDF 5PAF7PAY2Y reads "Published as a conference paper at COLM 2025" |
+| 2505.10833, MergeBench | Tier B, OpenReview submission | Tier A, NeurIPS 2025 Datasets and Benchmarks | neurips.cc/virtual/2025/poster/121431; PDF header names the track |
+| 2506.20480, GPTailor | Tier B, OpenReview submission | Tier A, ICLR 2026 | iclr.cc/virtual/2026/poster/10006580, April 25 2026 |
+| 2509.22935, Compute-Optimal QAT | Tier B, OpenReview submission | Tier A, ICLR 2026 | iclr.cc/virtual/2026/poster/10009552, April 24 2026 |
+
+Dr. GRPO also returns an ICML 2025 hit, which is the AI for Math workshop and therefore Tier D. COLM 2025 is the main-track publication and the correct venue. Checking both prevented a wrong venue from entering the register.
+
+All four already held Tier B, so all four already qualified as matrix rows. The matrix stays at 37 rows and the ranked table stays at 20. Rank 11, the compute-optimal quantization-aware training fraction, now rests on two Tier A sources in place of one Tier A and one Tier B. Path 3 counts move to 31 Tier A and 5 Tier B. Path 4 counts move to 31 Tier A and 7 Tier B. Reference counts move to 115 Tier A and 14 Tier B, with the 313 in-window total and the 3 labeled baselines unchanged.
+
+### Two items checked and held
+
+2509.01440, Benchmarking Optimizers, still reads "Submitted to NeurIPS 2025 Datasets and Benchmarks Track" on OpenReview forum fL9qDVnMJF, and no neurips.cc poster page appears. The author's own site hosts a file named for that conference, which is the weak-evidence class the September 17 audit flagged, so it holds Tier B.
+
+### A correction to the September 17 pass
+
+That pass moved Truncated Importance Sampling to Tier D and stated the report never cites it. The report does cite it, at Section 6 under the citation key "Yao et al., 2025." The check had searched for the title, for "TIS", and for "Yao, F", and the citation key matched none of those. The structural claim held, since the citation sits in narrative prose outside the matrix, the graded gaps, and the ranked table. The inline label was wrong and now reads Tier D.
+
+The lesson generalizes. A register keyed on identifiers and a report keyed on author-year names will not cross-check by string search alone. A future pass should map every report citation to its reference row by key rather than grepping for titles.
 
